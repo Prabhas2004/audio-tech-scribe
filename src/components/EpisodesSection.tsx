@@ -7,27 +7,27 @@ const EpisodesSection = () => {
   const episodes = [
     {
       id: 1,
-      title: "The Future of AI Ethics with Dr. Sarah Martinez",
-      description: "Stanford researcher discusses responsible AI development, algorithmic bias, and the frameworks needed for ethical machine learning in healthcare and finance.",
-      duration: "52 min",
+      title: "Kubernetes in Production with Ravi Kumar",
+      description: "DevOps architect Ravi Kumar shares real-world Kubernetes deployment strategies, scaling challenges, and cost optimization techniques for enterprise environments in this comprehensive discussion.",
+      duration: "45 min",
       date: "Dec 15, 2024",
-      guest: "Dr. Sarah Martinez"
+      guest: "Ravi Kumar"
     },
     {
       id: 2,
-      title: "Building Quantum-Ready Infrastructure with Michael Thompson",
-      description: "Former Google quantum engineer reveals how enterprises should prepare for quantum computing adoption and the cybersecurity implications for current encryption methods.",
-      duration: "47 min",
+      title: "Cloud Migration Success Stories with Priya Sharma",
+      description: "Cloud consultant Priya Sharma reveals proven methodologies for seamless cloud migration, discusses common pitfalls to avoid, and shares client success stories from her consulting experience.",
+      duration: "38 min",
       date: "Dec 8, 2024",
-      guest: "Michael Thompson"
+      guest: "Priya Sharma"
     },
     {
       id: 3,
-      title: "Democratizing Fintech Innovation with Lisa Park",
-      description: "Y Combinator alum shares insights on building inclusive financial products, navigating regulatory challenges, and creating accessible banking solutions for underserved communities.",
-      duration: "41 min",
+      title: "Building Tech Leadership Skills with Anil Reddy",
+      description: "Engineering manager Anil Reddy explores the transition from individual contributor to tech leader, sharing insights on team building, stakeholder management, and personal growth strategies.",
+      duration: "42 min",
       date: "Dec 1, 2024",
-      guest: "Lisa Park"
+      guest: "Anil Reddy"
     }
   ];
 
@@ -36,7 +36,7 @@ const EpisodesSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Latest Episodes</h2>
-          <p className="text-xl text-white/80">Discover the conversations shaping tomorrow's technology</p>
+          <p className="text-xl text-white/80">తాజా ఎపిసోడ్లను వినండి మరియు నేర్చుకోండి</p>
         </div>
         
         <div className="max-w-4xl mx-auto space-y-6">

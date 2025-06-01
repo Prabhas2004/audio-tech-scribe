@@ -11,7 +11,7 @@ const Header = () => {
             <div className="bg-gradient-to-r from-cyan-400 to-purple-400 p-2 rounded-xl">
               <Headphones className="h-6 w-6 text-white" />
             </div>
-            <span className="text-2xl font-bold text-white">TechVoice</span>
+            <span className="text-2xl font-bold text-white">TechTalks Telugu</span>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="text-white/80 hover:text-white transition-colors">About</a>

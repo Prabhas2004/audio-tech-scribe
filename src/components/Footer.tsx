@@ -12,10 +12,10 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-cyan-400 to-purple-400 p-2 rounded-xl">
                 <Headphones className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold text-white">TechVoice</span>
+              <span className="text-2xl font-bold text-white">TechTalks Telugu</span>
             </div>
             <p className="text-white/80 mb-4 max-w-md">
-              Where Innovation Speaks. Uncovering tomorrow's tech breakthroughs with today's visionaries.
+              Telugu Tech Conversations - తెలుగులో టెక్నాలజీ మరియు కెరీర్ గురించి నేర్చుకోండి
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/60 hover:text-white transition-colors">
@@ -56,7 +56,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-white/60 text-sm">© 2024 TechVoice. All rights reserved.</p>
+            <p className="text-white/60 text-sm">© 2024 TechTalks Telugu. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-white/60 hover:text-white text-sm transition-colors">Privacy Policy</a>
               <a href="#" className="text-white/60 hover:text-white text-sm transition-colors">Terms of Service</a>

@@ -5,9 +5,9 @@ import { ExternalLink, Linkedin, Twitter } from 'lucide-react';
 const GuestsSection = () => {
   const guests = [
     {
-      name: "Dr. Sarah Martinez",
-      title: "AI Ethics Researcher, Stanford University",
-      bio: "Leading researcher in responsible AI development with 15+ years in machine learning ethics. Published 50+ papers on algorithmic fairness and serves on WHO's AI advisory board.",
+      name: "Ravi Kumar",
+      title: "DevOps Architect, TCS",
+      bio: "Senior DevOps architect with 12+ years experience designing scalable infrastructure. Kubernetes expert who has led digital transformation initiatives for Fortune 500 companies across multiple industries.",
       image: "/placeholder.svg",
       links: {
         linkedin: "#",
@@ -16,9 +16,9 @@ const GuestsSection = () => {
       }
     },
     {
-      name: "Michael Thompson",
-      title: "Quantum Computing Pioneer, Ex-Google",
-      bio: "Former Principal Engineer at Google Quantum AI with 12+ years advancing quantum algorithms. Holds 25+ patents and co-founded quantum startup QbitTech, now valued at $500M.",
+      name: "Priya Sharma",
+      title: "Cloud Solutions Consultant, Independent",
+      bio: "AWS certified cloud consultant specializing in enterprise migrations. Former Microsoft Azure evangelist with 10+ years helping organizations optimize their cloud adoption strategies and reduce operational costs.",
       image: "/placeholder.svg",
       links: {
         linkedin: "#",
@@ -27,9 +27,9 @@ const GuestsSection = () => {
       }
     },
     {
-      name: "Lisa Park",
-      title: "Fintech Founder & CEO, PayForward",
-      bio: "Y Combinator alum who built PayForward into a $2B fintech serving 10M+ users. Former Goldman Sachs VP championing financial inclusion through innovative banking solutions.",
+      name: "Anil Reddy",
+      title: "Engineering Manager, Flipkart",
+      bio: "Engineering leader managing distributed teams of 50+ developers. Expert in building high-performance engineering cultures, mentoring junior developers, and scaling technology organizations in fast-growing startups.",
       image: "/placeholder.svg",
       links: {
         linkedin: "#",
@@ -44,7 +44,7 @@ const GuestsSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Featured Guests</h2>
-          <p className="text-xl text-white/80">Meet the innovators and thought leaders we've had the privilege to interview</p>
+          <p className="text-xl text-white/80">మా పాడ్‌కాస్ట్‌లో వచ్చిన ప్రముఖ వ్యక్తులను కలుసుకోండి</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
